@@ -3,7 +3,7 @@ import type { FromSchema } from 'json-schema-to-ts';
 export const findAll = {
   title: 'find all',
   type: 'object',
-  properties: { all: true },
+  properties: { all: { type: 'boolean', enum: [true] } },
   required: ['all'],
   additionalProperties: false,
 } as const;
