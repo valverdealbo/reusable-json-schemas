@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.3...v1.1.4) (2021-04-17)
+
+
+### Bug Fixes
+
+* update dependencies, update tools configurations ([d827d4b](https://github.com/valverdealbo/reusable-json-schemas/commit/d827d4b8dd07a45cf8728f18d2c29b1f8436ae64))
+
 ## [1.1.3](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.2...v1.1.3) (2021-02-18)
 
 
