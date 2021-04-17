@@ -1,73 +1,41 @@
 /* eslint-disable import/no-extraneous-dependencies,@typescript-eslint/ban-types,@typescript-eslint/no-explicit-any */
+// noinspection ES6PreferShortImport
+
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import {
-  $schema,
-  address,
-  countryCodeString,
-  dateString,
-  dateStringRange,
-  datetimeString,
-  datetimeStringRange,
-  document,
-  email,
-  errorResponse,
-  findAll,
-  findById,
-  geoJSONPoint,
-  geoJSONMultiPoint,
-  geoJSONLineString,
-  geoJSONMultiLineString,
-  geoJSONPolygon,
-  geoJSONMultiPolygon,
-  geolocation,
-  limit,
-  linearRing,
-  money,
-  objectIdString,
-  passwordString,
-  phone,
-  position,
-  skip,
-  timeString,
-  timeStringRange,
-  timedGeolocation,
-  timezoneString,
-  usernameString,
-  uuidString,
-  randomAddress,
-  randomCountryCodeString,
-  randomDateString,
-  randomDateStringRange,
-  randomDatetimeString,
-  randomDatetimeStringRange,
-  randomDocument,
-  randomEmail,
-  randomFindAll,
-  randomFindById,
-  randomErrorResponse,
-  randomGeoJSONPoint,
-  randomGeoJSONMultiPoint,
-  randomGeoJSONLineString,
-  randomGeoJSONMultiLineString,
-  randomGeoJSONPolygon,
-  randomGeoJSONMultiPolygon,
-  randomGeolocation,
-  randomLimit,
-  randomLinearRing,
-  randomMoney,
-  randomObjectIdString,
-  randomPasswordString,
-  randomPhone,
-  randomPosition,
-  randomSkip,
-  randomTimeString,
-  randomTimeStringRange,
-  randomTimedGeolocation,
-  randomTimezoneString,
-  randomUsernameString,
-  randomUuidString,
-} from '.';
+
+import { $schema } from '../src/$schema';
+import { address, randomAddress } from '../src/address';
+import { countryCodeString, randomCountryCodeString } from '../src/country-code-string';
+import { dateString, randomDateString } from '../src/date-string';
+import { dateStringRange, randomDateStringRange } from '../src/date-string-range';
+import { datetimeString, randomDatetimeString } from '../src/date-time-string';
+import { datetimeStringRange, randomDatetimeStringRange } from '../src/date-time-string-range';
+import { document, randomDocument } from '../src/document';
+import { email, randomEmail } from '../src/email';
+import { errorResponse, randomErrorResponse } from '../src/error-response';
+import { findAll, randomFindAll } from '../src/find-all';
+import { findById, randomFindById } from '../src/find-by-id';
+import { position, randomPosition, linearRing, randomLinearRing } from '../src/geojson-common';
+import { geoJSONPoint, randomGeoJSONPoint } from '../src/geojson-point';
+import { geoJSONMultiPoint, randomGeoJSONMultiPoint } from '../src/geojson-multi-point';
+import { geoJSONLineString, randomGeoJSONLineString } from '../src/geojson-line-string';
+import { geoJSONMultiLineString, randomGeoJSONMultiLineString } from '../src/geojson-multi-line-string';
+import { geoJSONPolygon, randomGeoJSONPolygon } from '../src/geojson-polygon';
+import { geoJSONMultiPolygon, randomGeoJSONMultiPolygon } from '../src/geojson-multi-polygon';
+import { geolocation, randomGeolocation } from '../src/geolocation';
+import { limit, randomLimit } from '../src/limit';
+import { money, randomMoney } from '../src/money';
+import { objectIdString, randomObjectIdString } from '../src/object-id-string';
+import { passwordString, randomPasswordString } from '../src/password-string';
+import { phone, randomPhone } from '../src/phone';
+import { skip, randomSkip } from '../src/skip';
+import { timeString, randomTimeString } from '../src/time-string';
+import { timeStringRange, randomTimeStringRange } from '../src/time-string-range';
+import { timedGeolocation, randomTimedGeolocation } from '../src/timed-geolocation';
+import { timezoneString, randomTimezoneString } from '../src/timezone-string';
+import { usernameString, randomUsernameString } from '../src/username-string';
+import { uuidString, randomUuidString } from '../src/uuid-string';
 
 const ajv = new Ajv({ strictTuples: false });
 addFormats(ajv);
