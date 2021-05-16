@@ -11,8 +11,8 @@ export const errorResponse = {
       type: 'object',
       properties: {
         status: { type: 'integer', description: 'HTTP status code of the response, like 400, 500, etc' },
-        name: { type: 'string', description: 'The name of the error, like UnauthorizedError or NotFoundError' },
-        message: { type: 'string' },
+        name: { type: 'string', minLength: 1, description: 'The name of the error, like UnauthorizedError or NotFoundError' },
+        message: { type: 'string', minLength: 1 },
       },
       required: ['status', 'name', 'message'],
       additionalProperties: false,

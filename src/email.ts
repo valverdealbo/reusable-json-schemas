@@ -6,7 +6,7 @@ const chance = new Chance();
 export const email = {
   type: 'object',
   properties: {
-    label: { type: 'string' },
+    label: { type: 'string', minLength: 1 },
     address: { type: 'string', format: 'email' },
   },
   required: ['label', 'address'],

@@ -6,8 +6,8 @@ const chance = new Chance();
 export const phone = {
   type: 'object',
   properties: {
-    label: { type: 'string' },
-    number: { type: 'string' },
+    label: { type: 'string', minLength: 1 },
+    number: { type: 'string', minLength: 1 },
   },
   required: ['label', 'number'],
   additionalProperties: false,
