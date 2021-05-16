@@ -1,7 +1,7 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import Chance from 'chance';
 import addDays from 'date-fns/addDays';
 import format from 'date-fns/format';
+import type { FromSchema } from 'json-schema-to-ts';
 import { dateString } from './date-string';
 import { DatetimeStringRange } from './date-time-string-range';
 

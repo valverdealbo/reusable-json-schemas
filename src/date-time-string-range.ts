@@ -1,6 +1,6 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import Chance from 'chance';
 import addDays from 'date-fns/addDays';
+import type { FromSchema } from 'json-schema-to-ts';
 import { datetimeString } from './date-time-string';
 
 const chance = new Chance();

@@ -1,6 +1,6 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import Chance from 'chance';
 import statuses from 'statuses';
+import type { FromSchema } from 'json-schema-to-ts';
 
 const chance = new Chance();
 

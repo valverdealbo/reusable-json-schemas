@@ -6,6 +6,10 @@
     "json",
     "schema"
   ],
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -23,8 +27,6 @@
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
-    "@semantic-release/npm": "^7.1.1",
-    "@semantic-release/release-notes-generator": "^9.0.2",
     "@types/chance": "^1.1.1",
     "@types/jest": "^26.0.22",
     "@types/statuses": "^2.0.0",

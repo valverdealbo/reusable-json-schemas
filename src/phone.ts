@@ -1,5 +1,5 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import Chance from 'chance';
+import type { FromSchema } from 'json-schema-to-ts';
 
 const chance = new Chance();
 

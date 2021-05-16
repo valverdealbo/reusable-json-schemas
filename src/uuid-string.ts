@@ -1,5 +1,5 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import * as uuid from 'uuid';
+import type { FromSchema } from 'json-schema-to-ts';
 
 export const uuidString = { type: 'string', format: 'uuid' } as const;
 

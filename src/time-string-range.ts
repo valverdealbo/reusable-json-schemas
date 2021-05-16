@@ -1,8 +1,8 @@
-import type { FromSchema } from 'json-schema-to-ts';
 import Chance from 'chance';
 import format from 'date-fns/format';
 import min from 'date-fns/min';
 import max from 'date-fns/max';
+import type { FromSchema } from 'json-schema-to-ts';
 import { timeString } from './time-string';
 
 const chance = new Chance();
