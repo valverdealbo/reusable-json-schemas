@@ -6,7 +6,7 @@ export const geoJSONMultiPoint = {
   description: 'A GeoJSON geometry object whose coordinates member is an array of positions',
   type: 'object',
   properties: {
-    type: { enum: ['MultiPoint'] },
+    type: { type: 'string', enum: ['MultiPoint'] },
     coordinates: { type: 'array', items: position },
   },
   required: ['type', 'coordinates'],

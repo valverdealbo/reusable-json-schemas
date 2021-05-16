@@ -6,7 +6,7 @@ export const geoJSONMultiPolygon = {
   description: 'A GeoJSON geometry object whose coordinates member is an array of Polygon coordinate arrays.',
   type: 'object',
   properties: {
-    type: { enum: ['MultiPolygon'] },
+    type: { type: 'string', enum: ['MultiPolygon'] },
     coordinates: { type: 'array', items: { type: 'array', items: linearRing } },
   },
   required: ['type', 'coordinates'],

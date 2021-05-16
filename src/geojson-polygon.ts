@@ -7,7 +7,7 @@ export const geoJSONPolygon = {
     'A GeoJSON geometry object whose coordinates member is an array of LinearRing coordinate arrays (a closed LineString with 4 or more positions where the first and last positions are equivalent). For Polygons with multiple rings, the first must be the exterior ring and any others must be interior rings or holes.',
   type: 'object',
   properties: {
-    type: { enum: ['Polygon'] },
+    type: { type: 'string', enum: ['Polygon'] },
     coordinates: { type: 'array', items: linearRing },
   },
   required: ['type', 'coordinates'],

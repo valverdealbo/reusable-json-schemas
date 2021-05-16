@@ -7,7 +7,7 @@ export const geoJSONMultiLineString = {
   description: 'A GeoJSON geometry object whose coordinates member is an array of LineString coordinate arrays',
   type: 'object',
   properties: {
-    type: { enum: ['MultiLineString'] },
+    type: { type: 'string', enum: ['MultiLineString'] },
     coordinates: { type: 'array', items: geoJSONLineString.properties.coordinates },
   },
   required: ['type', 'coordinates'],

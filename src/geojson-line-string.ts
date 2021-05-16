@@ -6,7 +6,7 @@ export const geoJSONLineString = {
   description: 'A GeoJSON geometry object whose coordinates member is an array of 2 or more positions.',
   type: 'object',
   properties: {
-    type: { enum: ['LineString'] },
+    type: { type: 'string', enum: ['LineString'] },
     coordinates: { type: 'array', items: position, minItems: 2 },
   },
   required: ['type', 'coordinates'],

@@ -6,7 +6,7 @@ export const geoJSONPoint = {
   description: 'A GeoJSON geometry object whose coordinates member is a single position.',
   type: 'object',
   properties: {
-    type: { enum: ['Point'] },
+    type: { type: 'string', enum: ['Point'] },
     coordinates: position,
   },
   required: ['type', 'coordinates'],
