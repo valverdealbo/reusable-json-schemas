@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.4...v1.1.5) (2021-05-16)
+
+
+### Bug Fixes
+
+* add missing schema types ([bd5f182](https://github.com/valverdealbo/reusable-json-schemas/commit/bd5f18204a9e5861e9efd8bc892e616b82bec3ec))
+* disallow empty strings in various schemas ([03c80a8](https://github.com/valverdealbo/reusable-json-schemas/commit/03c80a887f4bb44f28c53e64fcad1e406f5d0b97))
+
 ## [1.1.4](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.3...v1.1.4) (2021-04-17)
 
 
