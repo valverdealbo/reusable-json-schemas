@@ -3,7 +3,7 @@ import type { FromSchema } from 'json-schema-to-ts';
 
 const chance = new Chance();
 
-export const position = { type: 'array', items: [{ type: 'number' }, { type: 'number' }], minItems: 2, maxItems: 2 } as const;
+export const position = { type: 'array', items: { type: 'number' }, minItems: 2, maxItems: 2 } as const;
 
 export type Position = FromSchema<typeof position>;
 
