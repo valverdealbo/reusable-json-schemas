@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.7...v1.1.8) (2023-01-17)
+
+
+### Bug Fixes
+
+* change date, datetime and time ranges from tuples to arrays ([03938c0](https://github.com/valverdealbo/reusable-json-schemas/commit/03938c0ce213ce01463877a54b2e1ff709a45f54))
+
 ## [1.1.7](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.6...v1.1.7) (2023-01-17)
 
 
