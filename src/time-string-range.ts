@@ -7,7 +7,7 @@ import { timeString } from './time-string';
 
 const chance = new Chance();
 
-export const timeStringRange = { type: 'array', items: [timeString, timeString], minItems: 2, maxItems: 2 } as const;
+export const timeStringRange = { type: 'array', items: timeString, minItems: 2, maxItems: 2 } as const;
 
 export type TimeStringRange = FromSchema<typeof timeStringRange>;
 

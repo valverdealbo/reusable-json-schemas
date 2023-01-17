@@ -5,7 +5,7 @@ import { datetimeString } from './date-time-string';
 
 const chance = new Chance();
 
-export const datetimeStringRange = { type: 'array', items: [datetimeString, datetimeString], minItems: 2, maxItems: 2 } as const;
+export const datetimeStringRange = { type: 'array', items: datetimeString, minItems: 2, maxItems: 2 } as const;
 
 export type DatetimeStringRange = FromSchema<typeof datetimeStringRange>;
 
