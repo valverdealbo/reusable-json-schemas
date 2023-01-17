@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.6...v1.1.7) (2023-01-17)
+
+
+### Bug Fixes
+
+* change geo json coordinates from tuple to array ([1c15163](https://github.com/valverdealbo/reusable-json-schemas/commit/1c151639ce2e2cd21a1c863432b65b76aaea9e87))
+
 ## [1.1.6](https://github.com/valverdealbo/reusable-json-schemas/compare/v1.1.5...v1.1.6) (2022-01-10)
 
 

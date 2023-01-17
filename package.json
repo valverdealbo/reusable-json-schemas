@@ -1,6 +1,6 @@
 {
   "name": "@valbo/reusable-json-schemas",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Reusable JSON schemas with types and random data generators",
   "keywords": [
     "json",
